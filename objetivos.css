@@ -92,3 +92,54 @@ nav a:hover {
 
     font-weight:600;
 }
+
+/* =========================
+   TABLET (768px - 1023px)
+========================= */
+
+@media (min-width:768px) and (max-width:1023px){
+
+    .objetivo-card{
+        width:90%;
+    }
+}
+
+
+@media (max-width:767px){
+
+    header h1{
+        font-size:1.8rem;
+    }
+
+    nav{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .objetivos{
+        padding:20px;
+    }
+
+    .objetivo-card{
+        width:100%;
+        padding:25px;
+    }
+
+    .objetivo-card h2{
+        font-size:1.5rem;
+    }
+
+    .objetivo-card p{
+        font-size:0.95rem;
+    }
+
+    .skills{
+        gap:10px;
+    }
+
+    .skills span{
+        padding:8px 15px;
+        font-size:14px;
+    }
+}

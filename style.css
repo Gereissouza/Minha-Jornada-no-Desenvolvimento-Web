@@ -227,3 +227,66 @@ footer {
         width: 90%;
     }
 }
+
+/* =========================
+   TABLET (768px - 1023px)
+========================= */
+
+@media (min-width:768px) and (max-width:1023px){
+
+    .timeline{
+        width:95%;
+    }
+
+    .container{
+        padding:10px 25px;
+    }
+
+    .content{
+        padding:15px;
+    }
+
+    .card-canva{
+        width:70%;
+    }
+
+    nav{
+        gap:15px;
+    }
+}
+
+
+@media(max-width:767px) {
+
+    .timeline::after {
+        left: 30px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 20px;
+    }
+
+    .right {
+        left: 0;
+    }
+
+    .left::after,
+    .right::after {
+        left: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header h1{
+        font-size: 1.8rem;
+    }
+
+    .card-canva {
+        width: 90%;
+    }
+}

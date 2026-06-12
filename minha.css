@@ -7,18 +7,22 @@
 body{
     font-family:'Poppins',sans-serif;
 
-    background-image:url("fundo.jpg");
+    background-image: url("https://i.pinimg.com/736x/f0/92/5a/f0925a8958ac8ea048b98f828a087882.jpg");
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
-
-    color:white;
 }
 
 header{
-    background:rgba(17,26,61,.9);
+    background: #F2C2CF;
     padding:25px;
     text-align:center;
+}
+
+header h1{
+    color:#ffffff;
+    margin-bottom:20px;
+    text-shadow:2px 2px 8px rgba(0,0,0,0.3);
 }
 
 nav{
@@ -26,9 +30,14 @@ nav{
 }
 
 nav a{
-    color:#4ecdc4;
+    color:#ffffff;
     text-decoration:none;
     margin:0 15px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#F27EBE;
 }
 
 .evolucao{
@@ -36,23 +45,16 @@ nav a{
     justify-content:center;
     gap:30px;
     flex-wrap:wrap;
-
     padding:80px 10%;
 }
 
 .card{
     width:500px;
-
-    background:rgba(17,26,61,.85);
-
+    background:rgb(255, 255, 255);
     backdrop-filter:blur(8px);
-
     padding:30px;
-
     border-radius:25px;
-
     box-shadow:0 0 20px rgba(0,0,0,.4);
-
     transition:.4s;
 }
 
@@ -61,16 +63,11 @@ nav a{
 }
 
 .card h2{
-    color:#4ecdc4;
+    color:#F27EBE;
     margin-bottom:20px;
+    text-shadow:1px 1px 5px rgba(242,126,190,0.3);
 }
 
 .card p{
     line-height:1.8;
-}
-
-footer{
-    text-align:center;
-    padding:20px;
-    background:rgba(17,26,61,.9);
 }
